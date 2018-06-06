@@ -1,0 +1,23 @@
+{% extends 'baseindex.html' %}
+
+
+{% block pageHeader %}
+    <header class="intro-header" style="background-image: url('{{ url_for('static',filename='theme/img/about-bg.jpg') }}')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <div class="site-heading">
+                        <h1>Blog</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+   {% endblock %}
+{% block body %}
+ <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                <p>梦是唯一的现实</p>
+            </div>
+ </div>
+{% endblock %}
